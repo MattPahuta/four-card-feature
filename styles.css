@@ -1,0 +1,104 @@
+/* front-end mentor template styles */
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+/* 
+Font-sizes:
+.page-heading - M: 24px(1.5rem) - D: 36px(2.25rem), ExtraLight (200)
+.page-sub-heading -  M: 24px(1.5rem) - D: 36px(2.25rem), SemiBold (600)
+.page-summary -  15px(0.9375rem), Regular (400), opacity: 50%
+.card-title -  20px(1.25rem), SemiBold (600)
+.card-body -  13px(0.8125rem), Regular (400), opacity: 50%
+*/
+
+/* Base Styles */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+p,
+h2,
+h3 {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+  /* display: inline-block; */
+}
+
+.intro {
+  text-align: center;
+  padding: 2em 0;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.container-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.card {
+  border: 1px solid blueviolet;
+  border-radius: 5px;
+  width: 90%;
+  margin: 0 auto 2em auto;
+  max-width: 350px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-content {
+  padding: 1em;
+}
+
+.icon-container {
+  margin: 1em;
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer {
+  margin-top: 3em;
+}
+
+/* Typography */
+
+.page-heading {
+  font-size: 1.5rem;
+  font-weight: 200;
+}
+
+.page-sub-heading {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.page-summary {
+  font-size: 0.9375rem;
+  font-weight: 400;
+  opacity: .5;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.card-body {
+  font-size: 0.8125rem;
+  font-weight: 400;
+  opacity: .5;
+}
