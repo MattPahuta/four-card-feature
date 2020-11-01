@@ -69,6 +69,7 @@ header {
 
 .container-flex {
   margin: 0 auto;
+  padding: 0 1em 0 1em;
   max-width: 1350px;
   align-items: center;
   display: flex;
